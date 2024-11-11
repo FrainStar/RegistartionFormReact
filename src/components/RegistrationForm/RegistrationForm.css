@@ -1,0 +1,66 @@
+body {
+    font-family: Italic, serif;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+h4 {
+
+    text-align: left;
+}
+
+.registration-form {
+    width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.form-group {
+    margin: 0;
+}
+
+.form-group label {
+    display: block;
+    /*margin-bottom: 5px;*/
+    color: #333;
+    font-size: 16px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+.btn-submit {
+    margin-top: 20px;
+    background-color: #3498db;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #2980b9;
+}
